@@ -62,6 +62,7 @@ def fix_start(s):
   # For any character that matches the first character in the string (index 0) replace it with a *
   return s[0] + s[1:].replace(s[0],'*')
 
+##### DONE
 # D. MixUp
 # Given strings a and b, return a single string with a and b separated
 # by a space '<a> <b>', except swap the first 2 chars of each string.
